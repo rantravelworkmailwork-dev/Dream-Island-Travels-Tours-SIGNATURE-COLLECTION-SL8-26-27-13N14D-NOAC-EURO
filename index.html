@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Discover Sri Lanka – Signature Collection Tour | 13N / 14D</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar site-nav sticky-top shadow-sm">
+    <div class="container-fluid container-lg d-flex justify-content-between align-items-center">
+      <a class="navbar-brand d-flex align-items-center gap-3 text-wrap m-0" href="#">
+        <img src="images/dream island logo.jpeg" alt="Dream Island Travels Logo" class="brand-logo" />
+        <div>
+          <span class="brand-title">Dream Island Travels &amp; Tours Pvt Ltd</span>
+          <span class="brand-subtitle">Tailor-Made Holidays across Sri Lanka</span>
+        </div>
+      </a>
+      <div class="d-none d-lg-block nav-motto">Your Dream, Our Destination</div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container">
+      <p class="hero-kicker">SIGNATURE COLLECTION • SRI LANKA</p>
+      <h1>A Private 14-Day Journey Through</h1>
+      <h1>Sri Lanka</h1>
+      <div class="hero-rule"></div>
+      <p class="hero-tagline">Culture, wildlife, misty mountains, tea country, and pristine southern beaches.</p>
+      <div class="hero-meta">
+        <span>Tour No. - SL8/26/27/13N14D/NOAC</span>
+        <span>13 Nights / 14 Days</span>
+        <span>Half Board (Hotels &amp; Transport Only)</span>
+        <span>Valid until 31st October 2027</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container my-5">
+
+    <!-- INTRO -->
+    <section class="luxe-card accent">
+      <h3 class="section-title">Discover the Timeless Beauty of Sri Lanka</h3>
+      <p class="section-sub">A land rich in culture, history and natural wonders</p>
+      <p class="intro-lead">Misty mountains, lush tea plantations, ancient temples, wildlife parks, waterfalls, and scenic golden coastlines &mdash; unforgettable experiences for every traveller.</p>
+      <p class="intro-body mb-2">Explore sacred heritage sites, vibrant local traditions, flavourful cuisine, and peaceful village life, all while enjoying the warmth and hospitality of Sri Lanka's people. From adventure to relaxation, this comprehensive journey is filled with beauty, charm and lasting memories.</p>
+    </section>
+
+    <!-- KEY FACTS -->
+    <div class="row g-3 mb-4">
+      <div class="col-6 col-md-3"><div class="fact"><span class="fact-label">Tour</span><span class="fact-value">Signature Collection</span><span class="fact-note">SL8-26-27-13N14D-NOAC</span></div></div>
+      <div class="col-6 col-md-3"><div class="fact"><span class="fact-label">Duration</span><span class="fact-value">13N / 14D</span><span class="fact-note">Private chauffeur tour</span></div></div>
+      <div class="col-6 col-md-3"><div class="fact"><span class="fact-label">Meal Plan</span><span class="fact-value">Half Board</span><span class="fact-note">Breakfast &amp; dinner</span></div></div>
+      <div class="col-6 col-md-3"><div class="fact"><span class="fact-label">Pricing Base</span><span class="fact-value">EUR Rates</span><span class="fact-note">By Group Size &amp; Rooming</span></div></div>
+    </div>
+
+    <!-- TOUR RATES TABLE -->
+    <section class="luxe-card mb-4">
+      <h4 class="section-title">Tour Rates &mdash; Per Person (EUR)</h4>
+      <p class="section-sub">Prices include Half Board accommodation and private transport only. Entrance tickets to attractions are excluded.</p>
+      <div class="table-responsive">
+        <table class="luxe-table">
+          <thead>
+            <tr>
+              <th>Number of Pax</th>
+              <th>Room Sharing</th>
+              <th class="num">Rate per Person (EUR)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td rowspan="2" style="vertical-align:middle;font-weight:600;background:#fff !important;border-right:1px solid rgba(0,0,0,.08)">2</td><td>Single</td><td class="num">2,850</td></tr>
+            <tr><td>Double (DBL)</td><td class="num">1,750</td></tr>
+            <tr><td rowspan="3" style="vertical-align:middle;font-weight:600;background:#fff !important;border-right:1px solid rgba(0,0,0,.08)">3–7</td><td>Single</td><td class="num">2,810</td></tr>
+            <tr><td>Double (DBL)</td><td class="num">1,710</td></tr>
+            <tr><td>Triple (TPL)</td><td class="num">1,620</td></tr>
+            <tr><td rowspan="3" style="vertical-align:middle;font-weight:600;background:#fff !important;border-right:1px solid rgba(0,0,0,.08)">8–13</td><td>Single</td><td class="num">2,770</td></tr>
+            <tr><td>Double (DBL)</td><td class="num">1,670</td></tr>
+            <tr><td>Triple (TPL)</td><td class="num">1,580</td></tr>
+            <tr><td rowspan="3" style="vertical-align:middle;font-weight:600;background:#fff !important;border-right:1px solid rgba(0,0,0,.08)">14–20</td><td>Single</td><td class="num">2,730</td></tr>
+            <tr><td>Double (DBL)</td><td class="num">1,630</td></tr>
+            <tr><td>Triple (TPL)</td><td class="num">1,540</td></tr>
+            <tr><td rowspan="3" style="vertical-align:middle;font-weight:600;background:#fff !important;border-right:1px solid rgba(0,0,0,.08)">21–28</td><td>Single</td><td class="num">2,690</td></tr>
+            <tr><td>Double (DBL)</td><td class="num">1,590</td></tr>
+            <tr><td>Triple (TPL)</td><td class="num">1,500</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- MAP -->
+    <section class="luxe-card">
+      <h4 class="section-title">Your Route</h4>
+      <p class="section-sub">Tap any pin to see the stay and highlights for that destination.</p>
+      <div id="sri-lanka-map"></div>
+    </section>
+
+    <!-- ACTIVITIES -->
+    <section class="luxe-card">
+      <h4 class="section-title">Sightseeing &amp; Activities</h4>
+      <p class="section-sub">Activities by destination. Entrance tickets are not included in the package price.</p>
+      <div class="mb-3">
+        <h6 class="mb-2">Sigiriya &amp; Habarana</h6>
+        <div>
+          <span class="tag">🌿 Ayurveda Experience</span>
+          <span class="tag">🥾 Sigiriya Rock Fortress</span>
+          <span class="tag">💆 Ayurveda Massage</span>
+          <span class="tag">💃 Traditional Cultural Dance Show</span>
+          <span class="tag">🌾 Hiriwadunna Village Tour</span>
+          <span class="tag">🐘 Habarana Elephant Safari</span>
+          <span class="tag">🛕 Dambulla Cave Temple</span>
+          <span class="tag">🛕 Dambulla Golden Temple</span>
+        </div>
+      </div>
+      <div class="mb-3">
+        <h6 class="mb-2">Kandy</h6>
+        <div>
+          <span class="tag">🌶️ Spice Garden</span>
+          <span class="tag">🛕 Temple of the Sacred Tooth Relic</span>
+          <span class="tag">🌱 Peradeniya Royal Botanical Garden</span>
+        </div>
+      </div>
+      <div class="mb-3">
+        <h6 class="mb-2">Nuwara Eliya</h6>
+        <div>
+          <span class="tag">☕ Tea Plantation &amp; Tea Factory</span>
+          <span class="tag">🌊 Ramboda Falls</span>
+        </div>
+      </div>
+      <div class="mb-3">
+        <h6 class="mb-2">Ella</h6>
+        <div>
+          <span class="tag">🚂 Scenic Train Ride to Ella</span>
+          <span class="tag">⛰️ Little Adam's Peak</span>
+          <span class="tag">🌉 Nine Arch Bridge</span>
+          <span class="tag">💦 Ravana Falls</span>
+        </div>
+      </div>
+      <div class="mb-3">
+        <h6 class="mb-2">Yala</h6>
+        <div>
+          <span class="tag">🐆 Yala National Park Jeep Safari</span>
+        </div>
+      </div>
+      <div class="mb-3">
+        <h6 class="mb-2">South Coast</h6>
+        <div>
+          <span class="tag">🐢 Sea Turtle Hatchery</span>
+          <span class="tag">🛶 Koggala Lagoon / Madu River</span>
+          <span class="tag">🏰 Galle Fort</span>
+        </div>
+      </div>
+      <div class="mb-3">
+        <h6 class="mb-2">Colombo</h6>
+        <div>
+          <span class="tag">🏙️ Colombo City Tour</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ITINERARY -->
+    <section class="mb-4">
+      <h4 class="mb-3">Day-by-Day Itinerary (13 Nights / 14 Days)</h4>
+
+      <div class="accordion" id="itineraryAccordion">
+
+        <!-- Day 1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#day1">
+              <span class="day-no">Day 1</span> Arrival &amp; Sigiriya
+            </button>
+          </h2>
+          <div id="day1" class="accordion-collapse collapse show" data-bs-parent="#itineraryAccordion">
+            <div class="accordion-body">
+              <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                  <p>Arrive in Sri Lanka, meet your chauffeur at the airport and transfer privately to Sigiriya.</p>
+                  <div class="stay-info"><strong>Overnight:</strong> Sigiriya &mdash; Habarana Village by Cinnamon<br><strong>Meals:</strong> Dinner &nbsp;|&nbsp; Night 1 of 3</div>
+                </div>
+                <div class="col-lg-5"><div class="day-photo-grid"><img src="images/sigiriya.jpeg" alt="Habarana Village by Cinnamon" /></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day2">
+              <span class="day-no">Day 2</span> Sigiriya &amp; Habarana
+            </button>
+          </h2>
+          <div id="day2" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
+            <div class="accordion-body">
+              <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                  <p>A full day in the Sigiriya &amp; Habarana area.</p>
+                  <div class="stay-info"><strong>Overnight:</strong> Sigiriya &mdash; Habarana Village by Cinnamon<br><strong>Meals:</strong> Breakfast &amp; Dinner &nbsp;|&nbsp; Night 2 of 3</div>
+                </div>
+                <div class="col-lg-5"><div class="day-photo-grid"><img src="images/elephant_safari.jpg" alt="Sigiriya Rock" /></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 3 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day3">
+              <span class="day-no">Day 3</span> Habarana &amp; Sigiriya
+            </button>
+          </h2>
+          <div id="day3" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
+            <div class="accordion-body">
+              <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                  <p>A relaxed day exploring the Habarana countryside.</p>
+                  <div class="stay-info"><strong>Overnight:</strong> Sigiriya &mdash; Habarana Village by Cinnamon<br><strong>Meals:</strong> Breakfast &amp; Dinner &nbsp;|&nbsp; Night 3 of 3</div>
+                </div>
+                <div class="col-lg-5"><div class="day-photo-grid"><img src="images/culturalshow.jpg" alt="Habarana Elephant Safari" /></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 4 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day4">
+              <span class="day-no">Day 4</span> Dambulla to Kandy
+            </button>
+          </h2>
+          <div id="day4" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
+            <div class="accordion-body">
+              <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                  <p>Check out and travel to Kandy via Dambulla.</p>
+                  <div class="stay-info"><strong>Overnight:</strong> Kandy &mdash; Thilanka Hotel<br><strong>Meals:</strong> Breakfast &amp; Dinner &nbsp;|&nbsp; Night 1 of 2</div>
+                </div>
+                <div class="col-lg-5"><div class="day-photo-grid"><img src="images/tenploftooth.jpg" alt="Dambulla & Kandy" /></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 5 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day5">
+              <span class="day-no">Day 5</span> Kandy
+            </button>
+          </h2>
+          <div id="day5" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
+            <div class="accordion-body">
+              <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                  <p>A full day exploring the hill capital of Kandy.</p>
+                  <div class="stay-info"><strong>Overnight:</strong> Kandy &mdash; Thilanka Hotel<br><strong>Meals:</strong> Breakfast &amp; Dinner &nbsp;|&nbsp; Night 2 of 2</div>
+                </div>
+                <div class="col-lg-5"><div class="day-photo-grid"><img src="images/botanical.jpg" alt="Kandy Temple" /></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 6 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day6">
+              <span class="day-no">Day 6</span> Kandy to Nuwara Eliya
+            </button>
+          </h2>
+          <div id="day6" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
+            <div class="accordion-body">
+              <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                  <p>Check out and travel to Nuwara Eliya.</p>
+                  <div class="stay-info"><strong>Overnight:</strong> Nuwara Eliya &mdash; Araliya Green Hills<br><strong>Meals:</strong> Breakfast &amp; Dinner &nbsp;|&nbsp; Night 1 of 1</div>
+                </div>
+                <div class="col-lg-5"><div class="day-photo-grid"><img src="images/Ramboda-Falls.jpg" alt="Ramboda Falls" /></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 7 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day7">
+              <span class="day-no">Day 7</span> Nuwara Eliya to Ella
+            </button>
+          </h2>
+          <div id="day7" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
+            <div class="accordion-body">
+              <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                  <p>Check out and travel to Ella.</p>
+                  <div class="stay-info"><strong>Overnight:</strong> Ella &mdash; Flower Garden Hotel<br><strong>Meals:</strong> Breakfast &amp; Dinner &nbsp;|&nbsp; Night 1 of 2</div>
+                </div>
+                <div class="col-lg-5"><div class="day-photo-grid"><img src="images/train.jpg" alt="Ella Train" /></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 8 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day8">
+              <span class="day-no">Day 8</span> Ella
+            </button>
+          </h2>
+          <div id="day8" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
+            <div class="accordion-body">
+              <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                  <p>A full day to explore Ella and its surroundings.</p>
+                  <div class="stay-info"><strong>Overnight:</strong> Ella &mdash; Flower Garden Hotel<br><strong>Meals:</strong> Breakfast &amp; Dinner &nbsp;|&nbsp; Night 2 of 2</div>
+                </div>
+                <div class="col-lg-5"><div class="day-photo-grid"><img src="images/littleadam.jpg" alt="Ella" /></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 9 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day9">
+              <span class="day-no">Day 9</span> Ella to Yala
+            </button>
+          </h2>
+          <div id="day9" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
+            <div class="accordion-body">
+              <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                  <p>Check out and travel to Yala. Relax at your resort in the evening.</p>
+                  <div class="stay-info"><strong>Overnight:</strong> Yala &mdash; Kithala Resort<br><strong>Meals:</strong> Breakfast &amp; Dinner &nbsp;|&nbsp; Night 1 of 1</div>
+                </div>
+                <div class="col-lg-5"><div class="day-photo-grid"><img src="images/archbridge.jpg" alt="Ella to Yala" /></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 10 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day10">
+              <span class="day-no">Day 10</span> Yala Safari to Mirissa
+            </button>
+          </h2>
+          <div id="day10" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
+            <div class="accordion-body">
+              <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                  <p>Check out and travel to Mirissa.</p>
+                  <div class="stay-info"><strong>Overnight:</strong> Mirissa &mdash; Turtle Bay Beach<br><strong>Meals:</strong> Breakfast &amp; Dinner &nbsp;|&nbsp; Night 1 of 2</div>
+                </div>
+                <div class="col-lg-5"><div class="day-photo-grid"><img src="images/yala.jpg" alt="Yala" /></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 11 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day11">
+              <span class="day-no">Day 11</span> Mirissa
+            </button>
+          </h2>
+          <div id="day11" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
+            <div class="accordion-body">
+              <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                  <p>Free day at leisure in Mirissa.</p>
+                  <div class="stay-info"><strong>Overnight:</strong> Mirissa &mdash; Turtle Bay Beach<br><strong>Meals:</strong> Breakfast &amp; Dinner &nbsp;|&nbsp; Night 2 of 2</div>
+                </div>
+                <div class="col-lg-5"><div class="day-photo-grid"><img src="images/beachstay.jpg" alt="Turtle Bay Beach Mirissa" /></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 12 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day12">
+              <span class="day-no">Day 12</span> Mirissa to Induruwa
+            </button>
+          </h2>
+          <div id="day12" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
+            <div class="accordion-body">
+              <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                  <p>Check out and travel to Induruwa.</p>
+                  <div class="stay-info"><strong>Overnight:</strong> Induruwa &mdash; Pandanus Beach Resort &amp; Spa<br><strong>Meals:</strong> Breakfast &amp; Dinner &nbsp;|&nbsp; Night 1 of 1</div>
+                </div>
+                <div class="col-lg-5"><div class="day-photo-grid"><img src="images/TurtleHatchery.jpg" alt="Galle Fort" /></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 13 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day13">
+              <span class="day-no">Day 13</span> Induruwa to Colombo
+            </button>
+          </h2>
+          <div id="day13" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
+            <div class="accordion-body">
+              <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                  <p>Check out and travel to Colombo.</p>
+                  <div class="stay-info"><strong>Overnight:</strong> Colombo &mdash; Cinnamon Lakeside<br><strong>Meals:</strong> Breakfast &amp; Dinner &nbsp;|&nbsp; Night 1 of 1</div>
+                </div>
+                <div class="col-lg-5"><div class="day-photo-grid"><img src="images/colombo.jpg" alt="Colombo City Tour" /></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Day 14 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day14">
+              <span class="day-no">Day 14</span> Departure
+            </button>
+          </h2>
+          <div id="day14" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
+            <div class="accordion-body">
+              <p>After breakfast, check out and transfer privately to Bandaranaike International Airport for your departure flight home, concluding your unforgettable 14-day Sri Lankan tour.</p>
+              <div class="stay-info"><strong>Departure Transfer:</strong> Private transfer to airport.<br><strong>Meals:</strong> Breakfast</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ACCOMMODATION SUMMARY -->
+    <section class="luxe-card">
+      <h4 class="section-title">Your Hotel Accommodations (Half Board)</h4>
+      <p class="section-sub">Handpicked 4 &amp; 5-star properties across your 13-night journey</p>
+      <div class="row g-3">
+        <div class="col-md-6">
+          <div class="hotel-card">
+            <div class="hotel-head"><h5>Sigiriya</h5><span>03 Nights &bull; Half Board</span></div>
+            <ul class="hotel-list"><li>Habarana Village by Cinnamon</li></ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="hotel-card">
+            <div class="hotel-head"><h5>Kandy</h5><span>02 Nights &bull; Half Board</span></div>
+            <ul class="hotel-list"><li>Thilanka Hotel</li></ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="hotel-card">
+            <div class="hotel-head"><h5>Nuwara Eliya</h5><span>01 Night &bull; Half Board</span></div>
+            <ul class="hotel-list"><li>Araliya Green Hills</li></ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="hotel-card">
+            <div class="hotel-head"><h5>Ella</h5><span>02 Nights &bull; Half Board</span></div>
+            <ul class="hotel-list"><li>Flower Garden Hotel</li></ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="hotel-card">
+            <div class="hotel-head"><h5>Yala</h5><span>01 Night &bull; Half Board</span></div>
+            <ul class="hotel-list"><li>Kithala Resort</li></ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="hotel-card">
+            <div class="hotel-head"><h5>Mirissa</h5><span>02 Nights &bull; Half Board</span></div>
+            <ul class="hotel-list"><li>Turtle Bay Beach</li></ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="hotel-card">
+            <div class="hotel-head"><h5>Induruwa</h5><span>01 Night &bull; Half Board</span></div>
+            <ul class="hotel-list"><li>Pandanus Beach Resort &amp; Spa</li></ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="hotel-card">
+            <div class="hotel-head"><h5>Colombo</h5><span>01 Night &bull; Half Board</span></div>
+            <ul class="hotel-list"><li>Cinnamon Lakeside</li></ul>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex align-items-start gap-3 mt-4 p-3" style="background:#fff6e0;border:1px solid #d9a441;border-left:6px solid #c8861a;border-radius:8px;" role="alert">
+        <span style="font-size:1.6rem;line-height:1;">⚠️</span>
+        <div>
+          <strong style="display:block;text-transform:uppercase;letter-spacing:.08em;color:#8a5a00;">Important Notice</strong>
+          <span style="color:#3d2e0a;">Accommodation is subject to availability. The hotels listed above, or similar properties of an equivalent standard, will be provided at the time of booking.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- VALIDITY NOTE -->
+    <section class="note">
+      <h5>Package Validity</h5>
+      <p>This package is valid only until <strong>31st October 2027</strong>. Rates and arrangements apply to tours completed within this period.</p>
+    </section>
+
+    <!-- MEAL NOTE -->
+    <section class="note">
+      <h5>Meal Plan &amp; Pricing Note</h5>
+      <p>Your stay is on a Half Board basis at every hotel (breakfast and dinner included). <strong>Please note:</strong> Activity entrance tickets are <strong>not included</strong> in the package price. Rates cover Half Board accommodation and private transport only.</p>
+    </section>
+
+    <!-- INCLUSIONS / EXCLUSIONS -->
+    <section class="luxe-card">
+      <h4 class="mb-3">Package Details</h4>
+      <div class="row g-3">
+        <div class="col-md-6">
+          <div class="package-box">
+            <h5>The above prices include</h5>
+            <ul class="package-list">
+              <li>Accommodation on Half Board basis at the specified hotels.</li>
+              <li>Transport by fully air-conditioned private vehicle throughout the tour.</li>
+              <li>Driver / guide accommodation and daily expenses.</li>
+              <li>All road tolls, parking fees, and fuel costs.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="package-box excluded">
+            <h5>The above prices do not include</h5>
+            <ul class="package-list">
+              <li><strong>Entrance tickets for sightseeing activities and safari jeeps.</strong></li>
+              <li>Early check-in and late check-out charges.</li>
+              <li>Peak season supplements (Christmas, New Year, Kandy Perahera).</li>
+              <li>Lunches, snacks, and beverages throughout the tour.</li>
+              <li>Expenses of a personal nature and tips.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- POLICIES -->
+    <section class="luxe-card">
+      <h4 class="section-title mb-1">Policies &amp; Conditions</h4>
+      <p class="section-sub mb-4">Essential information regarding your booking, stay, and cancellations.</p>
+
+      <div class="policy-stack">
+
+        <div class="policy-subcard">
+          <h5 class="policy-subcard-title"><span>01</span> General Booking &amp; Payment</h5>
+          <ul class="package-list">
+            <li>The programme is based on hotel room availability at the time of booking.</li>
+            <li><strong>Advance Payment:</strong> A 20% advance payment is required 2 months before the tour start date. The remaining balance can be paid on the first day of the tour.</li>
+          </ul>
+        </div>
+
+        <div class="policy-subcard">
+          <h5 class="policy-subcard-title"><span>02</span> Hotel Rules &amp; Timing</h5>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <div class="timing-badge">
+                <span class="timing-label">Official Check-In</span>
+                <span class="timing-value">13:00 hrs</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="timing-badge">
+                <span class="timing-label">Official Check-Out</span>
+                <span class="timing-value">11:00 hrs</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="policy-subcard">
+          <h5 class="policy-subcard-title"><span>03</span> Child Policy</h5>
+          <div class="row g-2 align-items-center">
+            <div class="col-md-4">
+              <div class="child-tier">
+                <span class="tier-age">0 – 5.99 Years</span>
+                <span class="tier-price fee-none">Free of charge</span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="child-tier">
+                <span class="tier-age">6 – 11.99 Years</span>
+                <span class="tier-price">50% of package rate</span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="child-tier">
+                <span class="tier-age">12+ Years</span>
+                <span class="tier-price">Adult rate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="policy-subcard">
+          <h5 class="policy-subcard-title"><span>04</span> Cancellation Policy</h5>
+          <div class="table-responsive">
+            <table class="luxe-table">
+              <thead>
+                <tr>
+                  <th>Notice Before Arrival</th>
+                  <th class="num">Cancellation Fee (% of total)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>0 – 15 days</td><td class="num fee-high">100%</td></tr>
+                <tr><td>16 – 21 days</td><td class="num">80%</td></tr>
+                <tr><td>22 – 30 days</td><td class="num">50%</td></tr>
+                <tr><td>Over 31 days</td><td class="num fee-none">No cancellation fee</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="agency-footer">
+    <div class="container px-3">
+      <div class="footer-top-row">
+        <div class="d-flex align-items-center gap-3">
+          <img src="images/dream island logo.jpeg" alt="Dream Island Logo" class="footer-logo">
+          <div>
+            <h5>Dream Island Travels &amp; Tours Pvt Ltd</h5>
+            <span class="footer-sub">Tailor-Made Holidays across Sri Lanka</span>
+          </div>
+        </div>
+        <div class="footer-tagline text-md-end">
+          <span class="d-block footer-tagline-main">Culture &bull; Wildlife &bull; Adventures</span>
+          <span class="footer-tagline-sub">&ldquo;Your Dream, Our Destination&rdquo;</span>
+        </div>
+      </div>
+
+      <div class="row g-4 align-items-center justify-content-between">
+        <div class="col-lg-8">
+          <div class="d-flex flex-column gap-2">
+            <div class="d-flex align-items-start gap-2">
+              <span>📍</span>
+              <a href="https://maps.app.goo.gl/XyPVxmkMoir6SZHaA?g_st=awb" target="_blank" rel="noopener" class="footer-contact-text">357/1, Waththegedara, Vithikuliya, Sri Lanka</a>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <span>✉️</span>
+              <a href="mailto:Info@dreamislandtravels.com" class="footer-contact-text">Info@dreamislandtravels.com</a>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#1877F2" class="flex-shrink-0" viewBox="0 0 16 16"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/></svg>
+              <a href="https://facebook.com" target="_blank" rel="noopener" class="footer-contact-text">facebook.com/dreamislandtravels</a>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <span>🦉</span>
+              <a href="https://www.tripadvisor.co.uk/Attraction_Review-g293962-d34504009-Reviews-Dream_Island_Travels_Tours_Pvt_Ltd-Colombo_Western_Province.html" target="_blank" rel="noopener" class="footer-contact-text">TripAdvisor Reviews</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 text-lg-end">
+          <div class="contact-call-card d-inline-block text-start w-100">
+            <span class="label">Contact Us</span>
+            <a href="tel:+94743935369" class="phone-link d-block">+94 74 393 5369</a>
+            <a href="tel:+94767070706" class="phone-link d-block">+94 76 707 0706</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">&copy; Dream Island Travels &amp; Tours Pvt Ltd. All rights reserved. | Reg. No. PV00301414</div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
